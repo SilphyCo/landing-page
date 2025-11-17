@@ -1,0 +1,152 @@
+/* === HEADER === */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 16px 48px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* === HERO SECTION === */
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 96px 48px;
+    gap: 48px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.hero-image {
+    background-color: #6D747D;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+/* === INFO SECTION === */
+.info {
+    padding: 48px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+.card {
+    max-width: 150px;
+}
+
+.box {
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+/* === QUOTE SECTION === */
+.quote {
+    background-color: #E5E7EB;
+    padding: 96px 48px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    margin: 16px 0 0;
+}
+
+/* === CALL TO ACTION === */
+.cta {
+    padding: 96px 48px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 48px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text h3, .cta-text p {
+    color: white;
+    margin: 0;
+}
+
+.cta button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* === FOOTER === */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px;
+}
